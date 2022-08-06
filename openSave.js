@@ -14,7 +14,7 @@ downloadBtn.addEventListener("click", (e) => {
 
 // Open task (upload)
 openBtn.addEventListener("click", (e) => {
-    // Opens file explorer
+    // Opens File Explorer
     let input = document.createElement("input");
     input.setAttribute("type", "file");
     input.click();
